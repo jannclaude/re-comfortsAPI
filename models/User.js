@@ -126,6 +126,10 @@ const userSchema = new mongoose.Schema({
             orderStatus: {
                 type: String,
                 required: [true, 'Order status is required']
+            },
+            addedOn: {
+                type: Date,
+                default: new Date()
             }
         }
     ]

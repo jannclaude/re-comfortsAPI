@@ -257,7 +257,8 @@ module.exports.checkoutOrder = async (req, res) => {
                 cvv: req.body.cvv
             },
             paymentStatus: req.body.paymentStatus,
-            orderStatus: req.body.orderStatus
+            orderStatus: req.body.orderStatus,
+            addedOn: new Date()
         };
 
         console.log(order);
