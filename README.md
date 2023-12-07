@@ -10,7 +10,7 @@ Install the dependencies before running.
 $npm install bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemon uuid
 ```
 
-Start the API
+Start the API.
 ```bash
 $nodemon index.js
 ```
